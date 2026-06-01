@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chinmay. - LinkedIn Ghostwriter and Personal Brand Strategist. Write Better. Be Remembered.">
+  <meta name="keywords" content="LinkedIn Ghostwriter, Personal Brand Strategist, LinkedIn Content Samples, Brand Identity, Positioning Strategy, Chinmay">
+  <meta name="author" content="Chinmay">
+  <meta name="robots" content="index, follow">
+  
+  <title>Chinmay. | LinkedIn Ghostwriter & Personal Brand Strategist</title>
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       NAVBAR / STICKY HEADER
+       ========================================== -->
+  <header class="navbar-wrapper">
+    <div class="container">
+      <nav class="navbar-container" aria-label="Main Navigation">
+        <!-- Logo -->
+        <a href="#" class="nav-logo">Chinmay.</a>
+        
+        <!-- Center Desktop Nav Links -->
+        <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <!-- Right Action Button (Black Primary CTA) -->
+        <div class="nav-cta-wrap">
+          <a href="https://calendly.com/chinmaydamle/30min" target="_blank" rel="noopener" class="btn-pill btn-pill-primary nav-cta-btn">Book a Call</a>
+        </div>
+        
+        <!-- Mobile Toggle Burger Button -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Mobile Navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay Navigation Drawer -->
+  <div class="mobile-menu-overlay" id="mobileMenu" aria-hidden="true">
+    <ul class="mobile-menu-links">
+      <li><a href="#work" data-scroll-to="work">Work</a></li>
+      <li><a href="#services" data-scroll-to="services">Services</a></li>
+      <li><a href="#approach" data-scroll-to="approach">Approach</a></li>
+      <li><a href="#contact" data-scroll-to="contact">Contact</a></li>
+    </ul>
+    <a href="https://calendly.com/chinmaydamle/30min" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">Book a Call</a>
+  </div>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="section hero-wrapper" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <!-- Availability Badge -->
+        <div class="availability-pill animate-fade-up">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Available for new projects</span>
+        </div>
+        
+        <!-- Primary Headline -->
+        <h1 class="hero-headline tracking-tight animate-fade-up delay-1">
+          Write Better.<br>Be Remembered.
+        </h1>
+        
+        <!-- Subheadline -->
+        <p class="hero-subheadline animate-fade-up delay-2">
+          I help coaches, consultants, and personal brands turn expertise into content people actually pay attention to.
+        </p>
+        
+        <!-- Action Buttons (Black Primary Liquid Glass, Blue Secondary Liquid Glass) -->
+        <div class="hero-actions animate-fade-up delay-3">
+          <a href="#work" class="btn-pill btn-pill-primary" data-scroll-to="work">View Work</a>
+          <a href="https://tally.so/r/WOrVER" target="_blank" rel="noopener" class="btn-pill btn-pill-secondary">Get Free LinkedIn Audit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SELECTED WORK SECTION
+       ========================================== -->
+  <section class="section reveal-on-scroll" id="work">
+    <div class="container">
+      <!-- Section Headers -->
+      <div class="section-meta">
+        <h2 class="section-title tracking-tight">Selected Work</h2>
+        <p class="section-desc">A selection of ghostwriting and brand strategy projects.</p>
+        <!-- Sample Work Notice Badge -->
+        <p class="section-note mb-4"><em>Note: This is sample work created for these two coaches — not real client work.</em></p>
+      </div>
+
+      <!-- Card Grid Container -->
+      <div class="work-grid">
+        
+        <!-- CARD 1: Sarang Bezalwar -->
+        <article class="work-card">
+          <div>
+            <h3 class="card-title tracking-tight">Sarang Bezalwar</h3>
+            <p class="card-subtitle">Career Coach</p>
+            <p class="card-desc">
+              Developed personal brand positioning and content concepts, and designed a personal brand identity system.
+            </p>
+          </div>
+          <div class="card-actions">
+            <!-- Modal Trigger (Black Liquid Glass Primary CTA) -->
+            <button class="btn-pill btn-pill-primary" data-open-modal="sarangWorkModal">
+              View Work & Case Study
+            </button>
+          </div>
+        </article>
+
+        <!-- CARD 2: Rajinder Kumar -->
+        <article class="work-card">
+          <div>
+            <h3 class="card-title tracking-tight">Rajinder Kumar</h3>
+            <p class="card-subtitle">Career Coach</p>
+            <p class="card-desc">
+              Created LinkedIn content samples designed to communicate expertise clearly.
+            </p>
+          </div>
+          <div class="card-actions">
+            <!-- Modal Trigger 3 (Black Liquid Glass) -->
+            <button class="btn-pill btn-pill-primary" data-open-modal="rajinderGhostwritingModal">
+              View Ghostwriting Samples
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION
+       ========================================== -->
+  <section class="section reveal-on-scroll" id="services">
+    <div class="container">
+      <!-- Section Headers -->
+      <div class="section-meta">
+        <h2 class="section-title tracking-tight">How I Help</h2>
+        <p class="section-desc">Content planning, positioning strategy, and brand identity design.</p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid">
+        
+        <!-- Service 1: Ghostwriting -->
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title tracking-tight">Ghostwriting</h3>
+          <p class="service-desc">
+            LinkedIn content samples designed to communicate your expertise, audience, and core positioning clearly.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Content Strategy
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Curated 3 Posts Framework
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Content Ideation
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Writing
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 2: Brand Systems -->
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="9" y1="3" x2="9" y2="21"></line>
+              <line x1="9" y1="9" x2="21" y2="9"></line>
+            </svg>
+          </div>
+          <h3 class="service-title tracking-tight">Brand Systems</h3>
+          <p class="service-desc">
+            Creating consistency across messaging, positioning, and visual identity.
+          </p>
+          <ul class="service-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Positioning
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Brand Direction
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Content Pillars
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Visual Identity
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       MID-PAGE CTA SECTION
+       ========================================== -->
+  <section class="section reveal-on-scroll" id="mid-cta" style="padding-top: 0; padding-bottom: calc(var(--gap-desktop) / 2);">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-headline tracking-tight">Need help communicating your expertise more clearly?</h2>
+        <p class="cta-body" style="margin-bottom: 24px;">
+          Whether you're building a personal brand or refining an existing one, clarity matters. Let's look at your content, positioning, and messaging to see where the gaps are.
+        </p>
+        <div class="cta-actions" style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
+          <!-- Primary CTA (Black visionOS Liquid Glass) -->
+          <a href="https://tally.so/r/WOrVER" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">
+            Get Free LinkedIn Audit
+          </a>
+          <!-- Secondary CTA (Blue visionOS Liquid Glass) -->
+          <a href="https://calendly.com/chinmaydamle/30min" target="_blank" rel="noopener" class="btn-pill btn-pill-secondary">
+            Book a Call
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       APPROACH SECTION
+       ========================================== -->
+  <section class="section reveal-on-scroll" id="approach">
+    <div class="container">
+      <div class="approach-layout">
+        
+        <!-- Left: Large Statement Heading -->
+        <div>
+          <h2 class="approach-headline tracking-tight">
+            Most people don't need more content.<br>
+            They need clearer positioning.
+          </h2>
+        </div>
+        
+        <!-- Right: Narrative Details -->
+        <div class="approach-body">
+          <p>
+            Publishing more posts won't help if people don't understand:
+          </p>
+          <ul>
+            <li><strong>What you do</strong> exactly</li>
+            <li><strong>Who you help</strong> specifically</li>
+            <li><strong>Why you're different</strong> than the noise</li>
+          </ul>
+          <p>
+            That's why I focus on <strong>positioning first</strong> and writing content second. Good content starts long before the writing. I work with you to distill your background, methods, and insights into a clear messaging strategy.
+          </p>
+          <p>
+            The result? Content that communicates your exact expertise clearly, builds professional trust, and establishes your positioning.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CTA (GET IN TOUCH) SECTION
+       ========================================== -->
+  <section class="section reveal-on-scroll" id="contact">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-headline tracking-tight">Let's see if we're a fit.</h2>
+        <p class="cta-body">
+          20 minutes. No pitch. No pressure. Tell me about your business, audience, and goals. I'll tell you honestly whether I can help.
+        </p>
+        
+        <div class="cta-actions">
+          <!-- Black Primary CTA (visionOS Liquid Glass) -->
+          <a href="https://calendly.com/chinmaydamle/30min" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">
+            Book a Call
+          </a>
+          <!-- Blue Secondary CTA (visionOS Liquid Glass) -->
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chinmaydamle96@gmail.com" target="_blank" rel="noopener" class="btn-pill btn-pill-secondary">
+            Email Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Logo and Role -->
+        <div class="footer-branding">
+          <p class="footer-logo">Chinmay.</p>
+          <p class="footer-tagline">
+            LinkedIn Ghostwriter & Personal Brand Strategist
+          </p>
+        </div>
+        
+        <!-- Social/Contact Links -->
+        <div class="footer-links">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=chinmaydamle96@gmail.com" target="_blank" rel="noopener">chinmaydamle96@gmail.com</a>
+          <a href="https://www.linkedin.com/in/chinmaydamle/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       MODAL: SARANG GHOSTWRITING SAMPLES
+       ========================================== -->
+  <div class="modal-overlay" id="sarangWorkModal" aria-hidden="true" role="dialog">
+    <div class="modal-window">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <h3>Sarang Bezalwar</h3>
+          <p>Brand Strategy, Visual Identity & Ghostwriting Case Study</p>
+        </div>
+        <button class="modal-close-btn" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Modal Content Body -->
+      <div class="modal-body">
+        
+        <div class="section-badge">Case Study</div>
+
+        <!-- CARD 1: BRAND STRATEGY & POSITIONING -->
+        <div class="post-card">
+          <h4 class="modal-section-title">1. Brand Strategy & Positioning</h4>
+          <p class="modal-section-intro" style="margin-bottom: 16px;">
+            Complete 22-page brand system document covering tone guidelines, visual values, and positioning architecture.
+          </p>
+          <div>
+            <a href="https://drive.google.com/file/d/1RBTCTffMPEWMoM5hukKWBZ0FtG6AXatj/view?usp=sharing" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">View Brand Guide</a>
+          </div>
+        </div>
+
+        <!-- CARD 2: VISUAL IDENTITY REDESIGN -->
+        <div class="post-card">
+          <h4 class="modal-section-title">2. Visual Identity Redesign</h4>
+          <p class="modal-section-intro" style="margin-bottom: 16px;">
+            View the before and after redesign concepts of the brand logo and landing pages.
+          </p>
+          <div>
+            <a href="https://www.notion.so/Fortunate-Brains-Before-After-3700b4c9fd0d8052b66ef1aee557c8ef?source=copy_link" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">View Before & After Redesign</a>
+          </div>
+        </div>
+
+        <!-- CARD 3: LINKEDIN CONTENT SHOWCASE -->
+        <div class="post-card">
+          <div class="post-meta">
+            <div class="post-user-info">
+              <h4>Sarang Bezalwar</h4>
+              <p>Career Coach</p>
+            </div>
+          </div>
+          <h4 class="post-title">3. LinkedIn Content Showcase</h4>
+          <div class="post-content" style="white-space: pre-line;">73% of professionals who switch jobs without a plan end up WORSE OFF than before.
+Lower pay. Toxic culture. Career regression.
+
+Yet millions make impulsive moves every month that destroy years of progress.
+
+Here's the brutal truth:<div class="post-expanded-content" style="white-space: pre-line;">→ Most people wait until they're burned out to start looking
+→ They apply everywhere hoping something sticks
+→ They negotiate from desperation, not strength
+→ They take the first offer out of fear
+
+I've seen this pattern destroy careers for 15 years.
+
+But there's a better way.
+
+The Strategic Exit Method:
+Instead of reactive job hunting, top performers treat career transitions like business projects.
+
+They gather market intelligence. They build their "obvious choice" profile. They activate strategic networks. They negotiate from multiple offers.
+
+The result? 90-day transitions with 40%+ salary increases.
+Not luck. Strategy.
+
+The difference between a lateral move and a career upgrade:
+✅ Planning your exit while employed (not after quitting)
+✅ Positioning yourself as the solution to specific problems
+✅ Building relationships before you need them
+✅ Moving toward opportunities, not running from problems
+
+Your career is too important for reactive decisions.
+
+I just published my complete 90-Day Strategic Exit Playbook - the exact system I use to help professionals transition into roles that 2x their compensation and impact.
+
+Get the full framework here: [See Newsletter Section Below]
+
+What's your biggest challenge with job transitions?
+Drop a comment below.</div>
+          </div>
+          
+          <button class="post-expand-btn">
+            Read More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+
+          <!-- Carousel Link Button -->
+          <div style="margin-top: 16px;">
+            <a href="https://drive.google.com/file/d/1_hmRWS50VAZFSbFt2M9vK4uhrHOc9N5E/view?usp=drive_link" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">
+              View Carousel Slides
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 4: LEAD ACQUISITION & NEWSLETTER -->
+        <div class="post-card" style="margin-bottom: 0;">
+          <h4 class="modal-section-title">4. Lead Acquisition & Newsletter</h4>
+          <p class="modal-section-intro" style="margin-bottom: 16px;">
+            Published a detailed career transition playbook to serve as a high-value trust asset for senior professional client acquisition.
+          </p>
+          <div>
+            <a href="https://drive.google.com/file/d/1Zau2A9FnLht_l1FnjNw-BzltuXSFEQyL/view?usp=drive_link" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">
+              Read the Newsletter Playbook
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MODAL: RAJINDER GHOSTWRITING SAMPLES
+       ========================================== -->
+  <div class="modal-overlay" id="rajinderGhostwritingModal" aria-hidden="true" role="dialog">
+    <div class="modal-window">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <h3>Rajinder Kumar</h3>
+          <p>LinkedIn Content Samples</p>
+        </div>
+        <button class="modal-close-btn" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Modal Content Body -->
+      <div class="modal-body">
+        
+        <!-- POST 1: How to Get Hired as a Fresher in 2026 -->
+        <div class="post-card">
+          <div class="post-meta">
+            <div class="post-user-info">
+              <h4>Rajinder Kumar</h4>
+              <p>Career Coach</p>
+            </div>
+          </div>
+          <h4 class="post-title">How to Get Hired as a Fresher in 2026 (AI Era)</h4>
+          <div class="post-content" style="white-space: pre-line;">You didn't spend 4 years studying CS to get replaced by a chatbot.
+
+But that's what's happening to a lot of Indian freshers right now.
+
+Not because AI is smarter. Because they're preparing for a job market that stopped existing two years ago.<div class="post-expanded-content" style="white-space: pre-line;">I've spent 20 years inside IT. Software Test Engineer. QA Lead. Business Analyst. Product Owner. I didn't study this world from the outside. I worked inside it.
+
+Companies aren't replacing freshers with AI. They're replacing freshers who can only do what AI can do. The fresher who writes basic code on demand is at risk. The fresher who uses AI to ship faster, thinks clearly, and can explain what they built and why — that person is who recruiters are calling back.
+
+Last month, I spoke to a hiring manager at a mid-size product company. 400 applications for one junior role. They shortlisted 6. All 6 had GitHub repos with deployed projects. Real ones. Not tutorial clones. Not certificate screenshots. Working products with a README that explained what problem they were solving.
+
+Not the best college. Not the highest CGPA. That's it.
+
+So here's what actually moves things if you're a fresher right now:
+
+→ Pick Python, SQL, and one cloud platform.
+→ Learn enough to deploy something small.
+→ Build 2 projects — one that uses AI tools, one that solves a real domain problem.
+→ Post them on GitHub. Write one LinkedIn post about what you built and what broke.
+→ Get comfortable with AI developer tools. Not to copy-paste. To move faster while you think harder.
+→ Practice explaining your work out loud. Most freshers can build. Almost nobody can talk about what they built like a professional.
+
+That last part is what gets you the offer.
+
+In Week 1 of my 12-week program, I ask every participant one question: "What problem were you trying to solve with your last project?"
+
+Most go quiet.
+
+That silence is the real problem. Not their skills. Not AI. The moment they can answer that question clearly, everything changes.
+
+The market isn't closed. It's just looking for a different version of you than the one your college prepared.
+
+I've worked with 2000+ IT professionals on exactly this. Free 1:1 Clarity Session call link in the comments if you want a clear next step.</div>
+          </div>
+          <button class="post-expand-btn">
+            Read More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+        </div>
+
+        <!-- POST 2: How to Crack Interviews -->
+        <div class="post-card">
+          <div class="post-meta">
+            <div class="post-user-info">
+              <h4>Rajinder Kumar</h4>
+              <p>Career Coach</p>
+            </div>
+          </div>
+          <h4 class="post-title">How to Crack Interviews</h4>
+          <div class="post-content" style="white-space: pre-line;">Most interview advice is wrong.
+
+"Be confident." "Dress well." "Research the company."
+
+Nobody tells you what the interviewer is actually listening for.<div class="post-expanded-content" style="white-space: pre-line;">The smartest people in the room often give the worst answers.
+
+Not because they don't know the work.
+
+Because nobody ever taught them how to talk about it.
+
+Save this carousel. Your next interview will be different.</div>
+          </div>
+          <button class="post-expand-btn">
+            Read More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div style="margin-top: 16px;">
+            <a href="https://drive.google.com/file/d/1NWmWk9MaNhsdBK-ahYNwJfuEobHWU_sL/view?usp=sharing" target="_blank" rel="noopener" class="btn-pill btn-pill-primary">View Carousel</a>
+          </div>
+        </div>
+
+        <!-- POST 3: Career Gaps Don't Kill Applications -->
+        <div class="post-card">
+          <div class="post-meta">
+            <div class="post-user-info">
+              <h4>Rajinder Kumar</h4>
+              <p>Career Coach</p>
+            </div>
+          </div>
+          <h4 class="post-title">Career Gaps Don't Kill Applications. This Does.</h4>
+          <div class="post-content" style="white-space: pre-line;">TCS cut nearly 20,000 people last year.
+
+Accenture. Wipro. Byju's. Ola Electric.
+
+They weren't bad employees. They were people who showed up every day, did the work, and still got cut because the business changed around them.
+
+The gap on your resume isn't a character flaw. It's a timestamp of a market that moved faster than anyone planned for.<div class="post-expanded-content" style="white-space: pre-line;">If you're sitting with a gap on your resume right now, read this carefully. Because the story you're telling yourself about that gap is probably the thing actually hurting you.
+
+Here's what most people don't know:
+
+91% of hiring managers say they're open to candidates with career breaks. 79% will hire you if you can explain what you did during that time. The gap isn't killing your chances. The way you explain it is.
+
+I've coached professionals who were laid off, rejected 10+ times, and completely convinced the market had passed them by. Almost all of them had the same problem. They were apologising for the gap instead of owning it.
+
+"I was just taking some time off." "There were some personal issues." "I couldn't find the right fit."
+
+Here's what actually works:
+
+→ Own the timeline. Don't hide dates. ATS systems flag gaps anyway, and a confident explanation beats a suspicious one every time.
+→ Reframe it as a decision. "I was selective. I didn't want to take the wrong role and waste their time or mine." That's judgment, not weakness.
+→ Show what you did with the time. A certification, a freelance project, a GitHub repo, a completed course. Anything that shows you were moving.
+→ Separate the layoff from your value. You were let go because the company made a business call. That says nothing about your ability. Learn to say that out loud.
+
+75% of IT professionals in India say the job search has gotten harder in the last year. Applicants per open role have doubled since 2022. If you've been applying and hearing nothing, you're not imagining it.
+
+But a hard market is not the same as being unhireable.
+
+People aren't failing because they lack skills; it's that their resume doesn't reflect their skills. Their interview answers don't land. Their LinkedIn is invisible. Every one of those things can be fixed.
+
+I've seen people come back from 2-year gaps, multiple layoffs, and 15 rejections in a row. All of them stopped treating the gap as a confession and started treating it as context.
+
+If you're in this position, I run free 1:1 Clarity Sessions for IT professionals navigating exactly this. 2000+ people have been through it. Link in comments.</div>
+          </div>
+          <button class="post-expand-btn">
+            Read More
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       SVG FRACTAL NOISE FILTER
+       ========================================== -->
+  <svg style="display:none;" aria-hidden="true">
+    <filter id="noiseFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.015 0" />
+    </filter>
+  </svg>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
